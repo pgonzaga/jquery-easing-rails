@@ -3,10 +3,11 @@ gemspec
 
 gem 'sqlite3'
 gem 'jquery-rails'
+gem 'sass-rails'
 
 group :test do
   gem 'turn', :require => false
   gem 'rspec-rails'
-  gem 'capybara', '>= 2.0.3'
-  gem 'capybara-webkit', '>= 0.14.2'
+  gem 'capybara'
+  gem 'capybara-webkit', '~> 1.15'
 end

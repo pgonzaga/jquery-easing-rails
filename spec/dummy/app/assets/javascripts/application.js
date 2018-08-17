@@ -1,2 +1,2 @@
 //= require jquery
-//= require jquery-easing
+//= require jquery.easing
